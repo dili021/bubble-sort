@@ -1,12 +1,13 @@
 def bubble_sort_by(arr)
   print 'Your array before sorting: ', arr, "\n\n"
   return arr if arr.size <= 1
+
   sorted = false
   counter = 0
   until sorted
     sorted = true
     (arr.length - 1).times do |i|
-      if yield(arr[i], arr[i + 1]) > 0
+      if yield(arr[i], arr[i + 1]).positive?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
         sorted = false
       end
@@ -24,6 +25,7 @@ end
 def bubble_sort(arr)
   print 'Your array before sorting: ', arr, "\n\n"
   return arr if arr.size <= 1
+
   sorted = false
   counter = 0
   until sorted
