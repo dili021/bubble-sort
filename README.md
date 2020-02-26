@@ -56,5 +56,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Hats off to [@Microverse](https://microverse.org), and [@The Odin Project](https://theodinproject.com) for supplying the study material and exercices.
+Hats off to [@Microverse](https://microverse.org), and [@The Odin Project](https://www.theodinproject.com) for supplying the study material and exercices.
 
