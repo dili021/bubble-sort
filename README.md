@@ -16,7 +16,7 @@ Clone the repo to your local machine, and install Ruby
 Ruby
 
 ## Rubocop (Ruby linter) installation
-- Add gem 'rubocop' to Gemfile (not sure how to use Gemfile? Read this).
+- Add gem 'rubocop' to Gemfile
 - Run bundle install.
 - Copy .rubocop.yml to the root directory of your project
 
