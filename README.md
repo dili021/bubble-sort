@@ -17,7 +17,7 @@ Ruby
 
 ## Rubocop (Ruby linter) installation
 - Add gem 'rubocop' to Gemfile
-- Run bundle install.
+- Run `bundle install`
 - Copy .rubocop.yml to the root directory of your project
 
 ### Run tests
